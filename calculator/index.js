@@ -1,0 +1,6 @@
+alert('welcome'); 
+let answer='';
+
+
+  
+

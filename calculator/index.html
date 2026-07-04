@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="full">
+  <div id="one">
+    enter the value
+  </div>
+  <div class="three">
+  <button class="two" onclick="answer=''">
+C
+  </button><button class="two" onclick="answer+='1'; document.querySelector('#one').innerText=answer; " >
+    1
+  </button><button class="two" onclick="answer+='2' ;document.querySelector('#one').innerText=answer;">
+    2
+  </button><br><button class="two" onclick="answer+= '+'  ;document.querySelector('#one').innerText=answer;">
+    +
+  </button><button class="two" onclick="answer+='3'  ;document.querySelector('#one').innerText=answer;">
+    3
+  </button><button class="two" onclick="answer+='4'  ;document.querySelector('#one').innerText=answer;">
+    4
+  </button><br><button class="two" onclick="answer+='-'  ;document.querySelector('#one').innerText=answer;">
+    -
+  </button><button class="two" onclick="answer+='5'  ;document.querySelector('#one').innerText=answer;">
+    5
+  </button><button class="two" onclick="answer+='6'  ;document.querySelector('#one').innerText=answer;">
+    6
+  </button><br><button class="two" onclick="answer+='*'  ;document.querySelector('#one').innerText=answer;">
+    *
+  </button><button class="two" onclick="answer+='7'  ;document.querySelector('#one').innerText=answer;">
+    7
+  </button><button class="two" onclick="answer+='8'  ;document.querySelector('#one').innerText=answer;">
+    8
+  </button><br><button class="two" onclick="answer+='/'  ;document.querySelector('#one').innerText=answer;">
+    /
+  </button><button class="two" onclick="document.querySelector('#one').innerText=eval(answer);">
+    =
+  </button><button class="two" onclick="answer+='9'  ;document.querySelector('#one').innerText=answer;">
+    9
+  </button><br>
+  <div class="four">
+
+  <button class="two" onclick="answer+='0'  ;document.querySelector('#one').innerText=answer;">
+    0
+  </button><button class="two">
+    .
+  </button>
+  </div>
+  </div>
+  </div>
+
+  <script src="index.js">
+
+
+  </script>
+</body>
+</html>
